@@ -1,0 +1,55 @@
+
+        h1body {
+            background-color: #f5d5e1; /* A light, warm color */
+            font-family: 'Arial', sans-serif;
+
+        }
+
+        header {
+            background-color: #ff69b4; /* A girly pink color */
+            padding: 20px;
+        }
+
+        h1 {
+            color: white;
+            font-size: 36px;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .pink-box {
+            background-color: #ffc0cb; /* A softer pink color */
+            padding: 20px;
+            margin: 10px;
+            height: 700px;
+            border-radius: 10px;
+        }
+
+        img {
+            max-width: 100%;
+            height: 700px;
+        }
+
+        footer {
+            background-color: #ff69b4;
+            padding: 10px;
+            color: white;
+
+        }
+        .image1 {
+
+          position:relative;
+          top: 0;
+          left: 0;
+            .white-box {
+                background-color: azure;
+                padding: 20px;
+                width: 30%;
+                margin: 10px;
+                height: 650px;
+                border-radius: 10px;
+        }
+       
+    }
