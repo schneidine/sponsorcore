@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Girly Website</title>
-    <script src="sponsorcore.js"></script>
-    <style>
+    <script src="sponsorcore.js" defer></script>
+   <!-- <style>
         body {
             background-color: #f5d5e1; /* A light, warm color */
             font-family: 'Arial', sans-serif;
@@ -44,7 +44,7 @@
             padding: 10px;
             color: white;
         }
-    </style>
+    </style> -->
 </head>
 <body>
     <header>
@@ -57,58 +57,45 @@
  <form id="personalitytest">
 
     <!-- Details -->
-    <div class="form-control">
-      <label for="Question 1" id="question">
-          Question 1
-      </label> <!-- Input Type Radio Button -->
+    <div class="testForm">
 
-      <label for="recommend-1" id="a">
-          <input type="radio"
-                 id="recommed-1"
-                 name="recommed">A.</input>
+        <p id="questions"> loading... </p>
+      
+      <!-- Input Type Radio Button -->
+
+      <label for="a">
+          <input type="radio" id="a" name="choiceA">A.</input>
       </label>
 
-      <label for="recommed-2" id="b">
-          <input type="radio"
-                 id="recommed-2"
-                 name="recommed">B.</input>
-      </label>
+      <label for="b">
+        <input type="radio" id="b" name="choiceB">B.</input>
 
-      <label for="recommed-3" id="c">
-          <input type="radio"
-                 id="recommed-3"
-                 name="recommed">C.</input>
-      </label>
+      <label for="c">
+        <input type="radio" id="c" name="choiceC">C.</input>
 
-      <label for="recommend-4" id="d">
-        <input type="radio"
-               id="recommed-4"
-               name="recommed">D.</input>
+      <label for="d">
+        <input type="radio" id="d" name="recommed">D.</input>
      </label>
 
-      <label for="recommend-5" id="e">
-        <input type="radio"
-               id="recommed-5"
-               name="recommed">E.</input>
+      <label for="e">
+        <input type="radio" id="e" name="recommed">E.</input>
     </label>
 
-    <label for="recommend-6" id="f">
-        <input type="radio"
-               id="recommed-6"
-               name="recommed">F.</input>
+    <label for="f">
+        <input type="radio" id="f" name="recommed">F.</input>
      </label>
 
-     <label for="recommend-7" id="g">
-        <input type="radio"
-               id="recommed-7"
-               name="recommed">G.</input>
+     <label for="g">
+        <input type="radio" id="g" name="recommed">G.</input>
      </label>
+
     
-   </label>
-
     </form>
-    </label>
+
+    <button id="next"> Next </button>
+
         </div>
+
     <footer>
         <p>&copy; 2023 Sponsor Core Dress Up. All rights reserved.</p>
     </footer>
