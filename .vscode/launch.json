@@ -5,11 +5,18 @@
     "version": "0.2.0",
     "configurations": [
 
+
         {
             "type": "msedge",
             "request": "launch",
             "name": "Open index.html",
             "file": "C:\\Users\\rxseg\\Downloads\\sponsorcore\\index.html"
-        }
-    ]
+        },
+     {
+        "type": "msedge",
+        "request": "launch",
+        "name": "Open dressup.html",
+        "file": "C:\\Users\\rxseg\\Downloads\\sponsorcore\\dressup.html"
+    }
+]
 }
